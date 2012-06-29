@@ -373,11 +373,7 @@ HTTParty.get('http://api.transloc.com/1.1/routes.json?agencies=yale')
            "api_version" => "1.1"
 }
 
-
 HTTParty.get('http://api.transloc.com/1.1/segments.json?agencies=yale&routes=4000386')
-
-
-HTTParty.get('http://api.transloc.com/1.1/segments.json?agencies=yale&routes=4000386') 
 {
             "rate_limit" => 1,
             "expires_in" => 300,
