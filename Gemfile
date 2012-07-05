@@ -10,9 +10,9 @@ gem "polylines"
 gem "active_support"
 gem "rake"
 
-gem "rack-test"
-gem "rspec"
-
-group :development do
+group :development, :test do
   gem "shotgun"
+  gem "rack-test"
+  gem "rspec"
+  gem "jasmine"
 end
